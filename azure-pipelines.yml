@@ -20,7 +20,8 @@ steps:
     npm install
     ng build --prod
     npm run scully -- --scanRoutes
-    git config --global user.email "michel.vanveldhoven@planet.nl"
-    git config --global user.name "@michelvanveldhoven"
-    ng deploy --base-href=angular-gh-pages --no-silent
   displayName: 'npm install and build and publish'
+
+- script: |
+    ng deploy --repo=https://$(Github_Username):$(GH_TOKEN)@github.com/$(Github_Username)/$(Github_Repo_Location)
+  displayName: 'Build Production and Deploy to github.io'
