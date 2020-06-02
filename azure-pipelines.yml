@@ -24,7 +24,7 @@ steps:
   displayName: 'npm install dependencies'
 
 - script: |
-    ng build --prod
+    ng build --prod --baseHref=angular-gh-pages
   displayName: 'production build'
 
 - script: |
