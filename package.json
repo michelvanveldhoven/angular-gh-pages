@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "serve:prod": "http-server dist/angular-github-pages -c-1"
+    "serve:prod": "http-server dist/angular-github-pages -c-1",
+    "deploy:github": "ng deploy --base-href=angular-gh-pages"
   },
   "private": true,
   "dependencies": {
