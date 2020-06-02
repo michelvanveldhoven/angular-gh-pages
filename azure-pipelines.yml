@@ -37,7 +37,3 @@ steps:
     ArtifactName: 'frontend'
     publishLocation: 'Container'
   displayName: 'publish artifact'
-
-- script: |
-    ng deploy --no-build --base-href=angular-gh-pages --no-silent --repo=https://$(Github_Username):$(GH_TOKEN)@github.com/$(Github_Username)/$(Github_Repo_Location)
-  displayName: 'Deploy to github.io'
