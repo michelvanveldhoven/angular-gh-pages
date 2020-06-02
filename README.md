@@ -60,7 +60,7 @@ router :{
     }
 }
 
-When generating the static site with the <strong>--scanroutes<strong> option scully will create a static site foreach product.
+When generating the static site with the <strong>--scanroutes</strong> option scully will create a static site foreach product.
 
 
 ## Deploy to github pages
