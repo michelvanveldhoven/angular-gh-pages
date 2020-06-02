@@ -20,5 +20,5 @@ steps:
     npm install
     ng build --prod
     npm run scully -- --scanRoutes
-    ng deploy --base-href=angular-gh-pages
+    ng deploy --base-href=angular-gh-pages --no-silent
   displayName: 'npm install and build and publish'
