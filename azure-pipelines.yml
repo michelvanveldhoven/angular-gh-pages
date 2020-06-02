@@ -21,6 +21,6 @@ steps:
     ng build --prod
     npm run scully -- --scanRoutes
     git config --global user.email "michel.vanveldhoven@planet.nl"
-    git config --global user.name "michelvanveldhoven"
+    git config --global user.name "@michelvanveldhoven"
     ng deploy --base-href=angular-gh-pages --no-silent
   displayName: 'npm install and build and publish'
