@@ -9,7 +9,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "serve:prod": "http-server dist/angular-github-pages -c-1",
-    "deploy:github": "ng deploy --base-href=angular-gh-pages"
+    "deploy:github": "ng deploy --base-href=angular-gh-pages",
+    "scully": "scully",
+    "scully:serve": "scully serve"
   },
   "private": true,
   "dependencies": {
@@ -23,6 +25,9 @@
     "@angular/platform-browser": "~9.1.9",
     "@angular/platform-browser-dynamic": "~9.1.9",
     "@angular/router": "~9.1.9",
+    "@scullyio/init": "0.0.28",
+    "@scullyio/ng-lib": "latest",
+    "@scullyio/scully": "latest",
     "gh-pages": "^3.0.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",

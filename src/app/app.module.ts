@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 
 import { AppLayoutModule } from './layout/app-layout.module';
+import { ScullyLibModule } from '@scullyio/ng-lib';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { AppLayoutModule } from './layout/app-layout.module';
     BrowserAnimationsModule,
     AppLayoutModule,
     AppRoutingModule,
+    ScullyLibModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
